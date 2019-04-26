@@ -1,10 +1,9 @@
 !SIL SIL_S
-��โกวาจี k_B oo_I w_I aa_I c_I ii_E
 ขาย kh_B aa_I j^_E
 ข้อมูล kh_B @@_I m_I uu_I n^_E
 คุก kh_B u_I k^_E
 จ่าย c_B aa_I j^_E
-ซื้อ s_B vv_E
+ซื้อ­ s_B vv_E
 ดู d_B uu_E
 ตัวเอง t_B uua_I z_I ee_I ng^_E
 ทอย th_B @@_I j^_E
@@ -25,6 +24,7 @@
 แพ้ ph_B xx_E
 แลนด์มาร์ค l_B xx_I n^_I m_I aa_I k^_E
 แหก h_B xx_I k^_E
+โกวาจี k_B oo_I w_I aa_I c_I ii_E
 โฉนด ch_B a_I n_I oo_I t^_E
 โรงแรม r_B oo_I ng^_I r_I ee_I m^_E
 โอเวอร์ oo_B w_I qq_E

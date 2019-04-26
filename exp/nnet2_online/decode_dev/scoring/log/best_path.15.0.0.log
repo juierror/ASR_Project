@@ -1,0 +1,30 @@
+# lattice-scale --inv-acoustic-scale=15 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_dev/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_dev/scoring/15.0.0.tra 
+# Started at Fri Apr 26 12:38:59 UTC 2019
+#
+lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_dev/scoring/15.0.0.tra 
+lattice-scale --inv-acoustic-scale=15 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_dev/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 21.8728 + -16.1721 = 5.70071 over 194 frames.
+t1 คุก บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 23.445 + -18.2871 = 5.15787 over 230 frames.
+t2 ลูกเต๋า แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t3, best cost 30.0235 + -20.0583 = 9.96521 over 330 frames.
+t3 ข้อมูล ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t4, best cost 20.2091 + -16.6305 = 3.57864 over 203 frames.
+t4 ซื้อ ดู 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t5, best cost 14.5731 + -15.1684 = -0.595241 over 147 frames.
+t5 ข้อมูล 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t6, best cost 21.7952 + -12.4948 = 9.3004 over 179 frames.
+t6 เปลี่ยน เงิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t7, best cost 17.64 + -15.1121 = 2.52792 over 188 frames.
+t7 ข้อมูล 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best cost 27.3705 + -11.7019 = 15.6686 over 281 frames.
+t8 แหก คุก แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 16.4182 + -9.43974 = 6.97844 over 149 frames.
+t9 แหก 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 0.0306589 = 0.101708 [graph] + -0.0710494 [acoustic] over 1901 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Apr 26 12:38:59 UTC 2019, elapsed time 0 seconds
