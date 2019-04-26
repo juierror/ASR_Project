@@ -1,0 +1,31 @@
+!SIL SIL_S
+��โกวาจี k_B oo_I w_I aa_I c_I ii_E
+ขาย kh_B aa_I j^_E
+ข้อมูล kh_B @@_I m_I uu_I n^_E
+คุก kh_B u_I k^_E
+จ่าย c_B aa_I j^_E
+ซื้อ s_B vv_E
+ดู d_B uu_E
+ตัวเอง t_B uua_I z_I ee_I ng^_E
+ทอย th_B @@_I j^_E
+ที่ดิน th_B ii_I d_I i_I n^_E
+บ้าน b_B aa_I n^_E
+ประกัน pr_B a_I k_I a_I n^_E
+ยอม j_B @@_I m^_E
+ลูก l_B uu_I k^_E
+ลูกเต๋า l_B uu_I k^_I t_I a_I w^_E
+สร้าง s_B aa_I ng^_E
+หนึ่ง n_B v_I ng^_E
+เกม k_B ee_I m^_E
+เงิน ng_B q_I n^_E
+เทค th_B ee_I k^_E
+เทิร์น th_B qq_I n^_E
+เปลี่ยน pl_B iia_I n^_E
+เริ่ม r_B qq_I m^_E
+แพ้ ph_B xx_E
+แลนด์มาร์ค l_B xx_I n^_I m_I aa_I k^_E
+แหก h_B xx_I k^_E
+โฉนด ch_B a_I n_I oo_I t^_E
+โรงแรม r_B oo_I ng^_I r_I ee_I m^_E
+โอเวอร์ oo_B w_I qq_E
+<eps> SIL
