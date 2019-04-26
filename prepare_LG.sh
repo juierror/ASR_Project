@@ -73,6 +73,6 @@ utils/prepare_lang.sh --phone-symbol-table $phonelist $dict_out_dir '!SIL' $dict
 
 [ -f $lm.gz ] && rm $lm.gz
 gzip -k $lm
-../../babel/s5/local/arpa2G.sh $lm.gz $lang_out_dir $lang_out_dir
+../babel/s5/local/arpa2G.sh $lm.gz $lang_out_dir $lang_out_dir
 
 exit 0;
