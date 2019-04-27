@@ -1,0 +1,21 @@
+compute-cmvn-stats --spk2utt=ark:data/train//spk2utt scp:data/train//feats.scp ark,scp:/kaldi/egs/ASR_Project/mfcc/train/cmvn_train.ark,/kaldi/egs/ASR_Project/mfcc/train/cmvn_train.scp 
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0000
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0008
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0009
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0012
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0013
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0014
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0015
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0016
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0017
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0018
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0019
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0020
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0021
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0022
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0023
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0024
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0025
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:107) Did not find features for utterance M5931065121_0030
+WARNING (compute-cmvn-stats:main():compute-cmvn-stats.cc:123) No stats accumulated for speaker 5
+LOG (compute-cmvn-stats:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 72 utterances; 18 had errors.

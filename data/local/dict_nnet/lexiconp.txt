@@ -3,7 +3,7 @@
 ข้อมูล 1.0	kh @@ m uu n^
 คุก 1.0	kh u k^
 จ่าย 1.0	c aa j^
-ซื้อ­ 1.0	s vv
+ซื้อ 1.0	s vv
 ดู 1.0	d uu
 ตัวเอง 1.0	t uua z ee ng^
 ทอย 1.0	th @@ j^
@@ -24,7 +24,7 @@
 แพ้ 1.0	ph xx
 แลนด์มาร์ค 1.0	l xx n^ m aa k^
 แหก 1.0	h xx k^
-โกวาจี 1.0	k oo w aa c ii
 โฉนด 1.0	ch a n oo t^
 โรงแรม 1.0	r oo ng^ r ee m^
 โอเวอร์ 1.0	oo w qq
+﻿โกวาจี 1.0	k oo w aa c ii

@@ -1,0 +1,9 @@
+t1 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:3
+t2 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:2653
+t3 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:5771
+t4 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:10189
+t5 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:12956
+t6 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:14995
+t7 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:17450
+t8 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:20022
+t9 /kaldi/egs/ASR_Project/mfcc/test/raw_mfcc_test.1.ark:23803

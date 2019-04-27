@@ -1,0 +1,30 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri_graph//words.txt exp/tri/final.mdl exp/tri_graph//HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test//split1/1/utt2spk scp:data/test//split1/1/cmvn.scp scp:data/test//split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri_graph_decode/lat.1.gz" 
+# Started at Sat Apr 27 06:01:06 UTC 2019
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri_graph//words.txt exp/tri/final.mdl exp/tri_graph//HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test//split1/1/utt2spk scp:data/test//split1/1/cmvn.scp scp:data/test//split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri_graph_decode/lat.1.gz' 
+apply-cmvn --utt2spk=ark:data/test//split1/1/utt2spk scp:data/test//split1/1/cmvn.scp scp:data/test//split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 9 utterances, errors on 0
+t1 เปลี่ยน 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t1 is -8.32552 over 194 frames.
+t2 ดู เทิร์น ตัวเอง ดู 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t2 is -8.75994 over 230 frames.
+t3 ทอย ลูกเต๋า ลูก ดู ตัวเอง ลูก ลูก 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t3 is -8.57875 over 330 frames.
+t4 เปลี่ยน เทิร์น 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t4 is -8.47431 over 203 frames.
+t5 ยอม แพ้ 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t5 is -8.35788 over 147 frames.
+t6 ขาย บ้าน 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t6 is -8.29708 over 179 frames.
+t7 ซื้อ ลูกเต๋า แพ้ เทค 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t7 is -8.38075 over 188 frames.
+t8 ดู หนึ่ง ข้อมูล เปลี่ยน ลูก 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t8 is -8.64042 over 281 frames.
+t9 จ่าย ดู 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance t9 is -8.45984 over 149 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 1.103s: real-time factor assuming 100 frames/sec is 0.0580223
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 9 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -8.50029 over 1901 frames.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat Apr 27 06:01:07 UTC 2019, elapsed time 1 seconds

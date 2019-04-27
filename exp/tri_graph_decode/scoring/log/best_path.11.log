@@ -1,0 +1,30 @@
+# lattice-scale --inv-acoustic-scale=11 "ark:gunzip -c exp/tri_graph_decode/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/tri_graph//words.txt ark:- ark,t:exp/tri_graph_decode/scoring/11.tra 
+# Started at Sat Apr 27 06:01:08 UTC 2019
+#
+lattice-best-path --word-symbol-table=exp/tri_graph//words.txt ark:- ark,t:exp/tri_graph_decode/scoring/11.tra 
+lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c exp/tri_graph_decode/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 16.6011 + 1743.88 = 1760.48 over 194 frames.
+t1 เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 32.7779 + 2162.2 = 2194.98 over 230 frames.
+t2 ดู เทิร์น ตัวเอง ดู 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t3, best cost 52.6554 + 3030.92 = 3083.57 over 330 frames.
+t3 ทอย ลูกเต๋า ลูก ดู ตัวเอง ลูก ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t4, best cost 16.7089 + 1858.45 = 1875.16 over 203 frames.
+t4 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t5, best cost 15.4262 + 1323.48 = 1338.9 over 147 frames.
+t5 ยอม แพ้ 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t6, best cost 15.9046 + 1602.85 = 1618.75 over 179 frames.
+t6 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t7, best cost 28.0546 + 1688.22 = 1716.27 over 188 frames.
+t7 ซื้อ ลูกเต๋า แพ้ เทค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best cost 44.5899 + 2600.05 = 2644.64 over 281 frames.
+t8 ดู หนึ่ง ข้อมูล เปลี่ยน ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 17.4611 + 1356.07 = 1373.53 over 149 frames.
+t9 จ่าย ดู 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 9.26159 = 0.126344 [graph] + 9.13525 [acoustic] over 1901 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr 27 06:01:08 UTC 2019, elapsed time 0 seconds

@@ -1,0 +1,36 @@
+# align-equal-compiled "ark:gunzip -c exp/mono/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" ark,t:- | gmm-acc-stats-ali --binary=true exp/mono/0.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" ark:- exp/mono/0.1.acc 
+# Started at Sat Apr 27 05:05:08 UTC 2019
+#
+align-equal-compiled 'ark:gunzip -c exp/mono/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' ark,t:- 
+gmm-acc-stats-ali --binary=true exp/mono/0.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' ark:- exp/mono/0.1.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- 
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 72 utterances, errors on 0
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0000
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0008
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0009
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0012
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0013
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0014
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0015
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0016
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0017
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0018
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0019
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0020
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0021
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0022
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0023
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0024
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0025
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:69) No features for utterance M5931065121_0030
+WARNING (align-equal-compiled:main():align-equal-compiled.cc:109) Computed 72 alignments; 18 lacked features, 0 had other errors.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance M5931030121_0022 avg. like is -109.949 over 207 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 72 utterances, errors on 0
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:112) Done 72 files, 0 with errors.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -104.882 over 14243 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr 27 05:05:08 UTC 2019, elapsed time 0 seconds

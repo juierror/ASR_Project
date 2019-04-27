@@ -22,7 +22,7 @@
 ข้อมูล	1.0	kh @@ m uu n^
 ที่ดิน	1.0	th ii d i n^
 แหก	1.0	h xx k^
-คุก	1.0	kh U k^
+คุก	1.0	kh u k^
 ประกัน	1.0	pr a k a n^
 ตัวเอง	1.0	t uua z ee ng^
 จ่าย	1.0	c aa j^
