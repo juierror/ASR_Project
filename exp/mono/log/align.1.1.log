@@ -1,5 +1,5 @@
 # gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=6 --retry-beam=24 --careful=false "gmm-boost-silence --boost=1.0 1 exp/mono/1.mdl - |" "ark:gunzip -c exp/mono/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" "ark,t:|gzip -c >exp/mono/ali.1.gz" 
-# Started at Sat Apr 27 05:05:08 UTC 2019
+# Started at Mon Apr 29 11:53:23 UTC 2019
 #
 gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=6 --retry-beam=24 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/mono/1.mdl - |' 'ark:gunzip -c exp/mono/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train//split1/1/utt2spk scp:data/train//split1/1/cmvn.scp scp:data/train//split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' 'ark,t:|gzip -c >exp/mono/ali.1.gz' 
 gmm-boost-silence --boost=1.0 1 exp/mono/1.mdl - 
@@ -26,8 +26,8 @@ WARNING (gmm-align-compiled:main():gmm-align-compiled.cc:98) No features for utt
 WARNING (gmm-align-compiled:main():gmm-align-compiled.cc:98) No features for utterance M5931065121_0024
 WARNING (gmm-align-compiled:main():gmm-align-compiled.cc:98) No features for utterance M5931065121_0025
 WARNING (gmm-align-compiled:main():gmm-align-compiled.cc:98) No features for utterance M5931065121_0030
-LOG (gmm-align-compiled:main():gmm-align-compiled.cc:129) Overall log-likelihood per frame is -100.654 over 14243 frames.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:129) Overall log-likelihood per frame is -100.642 over 14243 frames.
 LOG (gmm-align-compiled:main():gmm-align-compiled.cc:131) Retried 0 out of 90 utterances.
 LOG (gmm-align-compiled:main():gmm-align-compiled.cc:133) Done 72, errors on 18
 # Accounting: time=1 threads=1
-# Ended (code 0) at Sat Apr 27 05:05:09 UTC 2019, elapsed time 1 seconds
+# Ended (code 0) at Mon Apr 29 11:53:24 UTC 2019, elapsed time 1 seconds
