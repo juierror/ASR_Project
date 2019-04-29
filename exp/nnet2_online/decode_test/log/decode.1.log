@@ -1,0 +1,34 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph/HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/test/split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test/lat.1.gz" 
+# Started at Mon Apr 29 08:39:17 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph/HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/test/split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test/lat.1.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:../../ASR_Project/data/test/split1/1/wav.scp ark:- 
+t1 โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t1
+t2 ยอม เกม ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t2
+t3 ทอย ลูกเต๋า เงิน โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t3
+t4 ลูก เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t4
+t5 ยอม แหก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t5
+t6 ขาย ประกัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t6
+t7 ซื้อ โฉนด แพ้ เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t7
+LOG (wav-copy:main():wav-copy.cc:56) Copied 9 wave files
+t8 ดู ข้อมูล โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t8
+t9 จ่าย เงิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance t9
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.08609 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.183229 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 71.9651
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.650834 seconds for utterance 't2'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 9 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.197051 per frame over 1901 frames.
+# Accounting: time=8 threads=1
+# Ended (code 0) at Mon Apr 29 08:39:25 UTC 2019, elapsed time 8 seconds

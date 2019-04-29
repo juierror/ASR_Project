@@ -24,7 +24,7 @@
 แพ้ 1.0 ph_B xx_E
 แลนด์มาร์ค 1.0 l_B xx_I n^_I m_I aa_I k^_E
 แหก 1.0 h_B xx_I k^_E
+โกวาจี 1.0 k_B oo_I w_I aa_I c_I ii_E
 โฉนด 1.0 ch_B a_I n_I oo_I t^_E
-โรงแรม 1.0 r_B oo_I ng^_I r_I ee_I m^_E
+โรงแรม 1.0 r_B oo_I ng^_I r_I xx_I m^_E
 โอเวอร์ 1.0 oo_B w_I qq_E
-﻿โกวาจี 1.0 k_B oo_I w_I aa_I c_I ii_E

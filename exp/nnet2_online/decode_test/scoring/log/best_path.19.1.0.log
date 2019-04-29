@@ -1,0 +1,30 @@
+# lattice-scale --inv-acoustic-scale=19 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/19.1.0.tra 
+# Started at Mon Apr 29 08:39:26 UTC 2019
+#
+lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/19.1.0.tra 
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=19 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 14.683 + -45.7992 = -31.1162 over 194 frames.
+t1 โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 23.8731 + -25.43 = -1.55694 over 230 frames.
+t2 ตัวเอง ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t3, best cost 40.2918 + -52.5409 = -12.2491 over 330 frames.
+t3 ทอย ลูกเต๋า เงิน โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t4, best cost 24.0206 + -29.3563 = -5.33566 over 203 frames.
+t4 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t5, best cost 21.1925 + -30.7989 = -9.60638 over 147 frames.
+t5 ยอม แหก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t6, best cost 22.0191 + -22.4834 = -0.464304 over 179 frames.
+t6 ขาย สร้าง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t7, best cost 26.1212 + -20.4298 = 5.69142 over 188 frames.
+t7 ซื้อ ลูก แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best cost 31.3106 + -49.5801 = -18.2695 over 281 frames.
+t8 ดู ข้อมูล โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 22.7353 + -24.194 = -1.45876 over 149 frames.
+t9 จ่าย เงิน 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.0391191 = 0.119015 [graph] + -0.158134 [acoustic] over 1901 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 29 08:39:26 UTC 2019, elapsed time 0 seconds

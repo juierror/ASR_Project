@@ -24,8 +24,8 @@
 แพ้ ph_B xx_E
 แลนด์มาร์ค l_B xx_I n^_I m_I aa_I k^_E
 แหก h_B xx_I k^_E
+โกวาจี k_B oo_I w_I aa_I c_I ii_E
 โฉนด ch_B a_I n_I oo_I t^_E
-โรงแรม r_B oo_I ng^_I r_I ee_I m^_E
+โรงแรม r_B oo_I ng^_I r_I xx_I m^_E
 โอเวอร์ oo_B w_I qq_E
-﻿โกวาจี k_B oo_I w_I aa_I c_I ii_E
 <eps> SIL

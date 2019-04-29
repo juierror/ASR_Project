@@ -24,7 +24,7 @@
 แพ้ 1.0	ph xx
 แลนด์มาร์ค 1.0	l xx n^ m aa k^
 แหก 1.0	h xx k^
+โกวาจี 1.0	k oo w aa c ii
 โฉนด 1.0	ch a n oo t^
-โรงแรม 1.0	r oo ng^ r ee m^
+โรงแรม 1.0	r oo ng^ r xx m^
 โอเวอร์ 1.0	oo w qq
-﻿โกวาจี 1.0	k oo w aa c ii
