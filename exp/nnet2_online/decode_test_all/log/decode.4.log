@@ -1,0 +1,22 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_all/per_utt/utt2spk.4 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/train//split4/4/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_all/lat.4.gz" 
+# Started at Wed May  1 17:06:00 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_all/per_utt/utt2spk.4 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/train//split4/4/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_all/lat.4.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:../../ASR_Project/data/train//split4/4/wav.scp ark:- 
+ERROR (online2-wav-nnet2-latgen-faster:AcceptWaveform():online-feature.cc:57) Sampling frequency mismatch, expected 16000, got 44100
+WARNING (online2-wav-nnet2-latgen-faster:Close():kaldi-io.cc:465) Pipe wav-copy scp,p:../../ASR_Project/data/train//split4/4/wav.scp ark:- | had nonzero return status 13
+ERROR (online2-wav-nnet2-latgen-faster:AcceptWaveform():online-feature.cc:57) Sampling frequency mismatch, expected 16000, got 44100
+
+[stack trace: ]
+kaldi::KaldiGetStackTrace()
+kaldi::KaldiErrorMessage::~KaldiErrorMessage()
+kaldi::OnlineGenericBaseFeature<kaldi::Mfcc>::AcceptWaveform(float, kaldi::VectorBase<float> const&)
+kaldi::OnlineNnet2FeaturePipeline::AcceptWaveform(float, kaldi::VectorBase<float> const&)
+online2-wav-nnet2-latgen-faster(main+0xab6) [0x470b2e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7fbdade6cb45]
+online2-wav-nnet2-latgen-faster() [0x46fa59]
+
+# Accounting: time=0 threads=1
+# Ended (code 255) at Wed May  1 17:06:00 UTC 2019, elapsed time 0 seconds
