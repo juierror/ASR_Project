@@ -1,14 +1,13 @@
 # lattice-scale --inv-acoustic-scale=11 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/11.0.5.tra 
-# Started at Mon Apr 29 11:18:34 UTC 2019
+# Started at Mon Apr 29 12:28:01 UTC 2019
 #
-lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
-lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/11.0.5.tra 
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 14.3832 + -79.1077 = -64.7245 over 194 frames.
 t1 โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 23.1319 + -43.9246 = -20.7927 over 230 frames.
 t2 ตัวเอง ลูก 
-LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t3, best cost 37.5291 + -90.7525 = -53.2234 over 330 frames.
 t3 ทอย ลูกเต๋า เงิน โฉนด 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t4, best cost 27.0133 + -55.2279 = -28.2146 over 203 frames.
@@ -23,8 +22,9 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best co
 t8 ดู ข้อมูล โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 21.2167 + -41.7897 = -20.573 over 149 frames.
 t9 จ่าย เงิน 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
 LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.160853 = 0.115857 [graph] + -0.27671 [acoustic] over 1901 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Apr 29 11:18:34 UTC 2019, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 29 12:28:01 UTC 2019, elapsed time 0 seconds

@@ -1,9 +1,9 @@
 # lattice-scale --inv-acoustic-scale=20 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/20.0.5.tra 
-# Started at Mon Apr 29 11:18:34 UTC 2019
+# Started at Mon Apr 29 12:28:01 UTC 2019
 #
+lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/20.0.5.tra 
 lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 lattice-scale --inv-acoustic-scale=20 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
-lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/20.0.5.tra 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 14.3832 + -43.5093 = -29.126 over 194 frames.
 t1 โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 23.1319 + -24.1585 = -1.02665 over 230 frames.
@@ -27,4 +27,4 @@ LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word inse
 LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.0376619 = 0.111137 [graph] + -0.148799 [acoustic] over 1901 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Apr 29 11:18:34 UTC 2019, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 29 12:28:01 UTC 2019, elapsed time 0 seconds
