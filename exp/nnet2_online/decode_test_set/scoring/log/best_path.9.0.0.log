@@ -1,0 +1,44 @@
+# lattice-scale --inv-acoustic-scale=9 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/9.0.0.tra 
+# Started at Thu May  2 14:31:52 UTC 2019
+#
+lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/9.0.0.tra 
+lattice-scale --inv-acoustic-scale=9 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0000, best cost 14.3362 + -101.4 = -87.0634 over 141 frames.
+M5931047921_0000 โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0008, best cost 20.0203 + -60.7493 = -40.729 over 168 frames.
+M5931047921_0008 เริ่ม ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0009, best cost 21.4736 + -129.274 = -107.8 over 250 frames.
+M5931047921_0009 ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0012, best cost 13.2706 + -58.2778 = -45.0072 over 156 frames.
+M5931047921_0012 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0013, best cost 12.5342 + -71.5852 = -59.051 over 164 frames.
+M5931047921_0013 ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0014, best cost 16.6965 + -58.2862 = -41.5897 over 173 frames.
+M5931047921_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0015, best cost 19.3086 + -48.9889 = -29.6803 over 168 frames.
+M5931047921_0015 ซื้อ ประกัน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0016, best cost 20.1369 + -47.5144 = -27.3774 over 194 frames.
+M5931047921_0016 ซื้อ ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0017, best cost 25.5571 + -52.2827 = -26.7256 over 180 frames.
+M5931047921_0017 สร้าง เงิน แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0018, best cost 16.1471 + -81.2043 = -65.0572 over 197 frames.
+M5931047921_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0019, best cost 18.9336 + -56.1674 = -37.2338 over 188 frames.
+M5931047921_0019 ขาย สร้าง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0020, best cost 24.3443 + -72.4063 = -48.062 over 226 frames.
+M5931047921_0020 ขาย ทอย แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0021, best cost 24.7218 + -54.6698 = -29.9481 over 194 frames.
+M5931047921_0021 ขาย เปลี่ยน แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0022, best cost 21.5515 + -82.0845 = -60.533 over 226 frames.
+M5931047921_0022 ทอย โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0023, best cost 24.8186 + -86.3886 = -61.57 over 237 frames.
+M5931047921_0023 ดู ข้อมูล โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0024, best cost 19.1261 + -47.2163 = -28.0903 over 154 frames.
+M5931047921_0024 แหก ลูก 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 16 lattices.
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 16 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.263766 = 0.103772 [graph] + -0.367538 [acoustic] over 3016 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 16 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu May  2 14:31:52 UTC 2019, elapsed time 0 seconds
