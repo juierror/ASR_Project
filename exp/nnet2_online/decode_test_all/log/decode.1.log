@@ -1,5 +1,5 @@
 # online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_all/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/train//split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_all/lat.1.gz" 
-# Started at Wed May  1 17:06:23 UTC 2019
+# Started at Wed May  1 17:16:33 UTC 2019
 #
 online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_all/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/train//split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_all/lat.1.gz' 
 LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
@@ -147,7 +147,7 @@ M5931047921_0024 แหก ลูก
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0024
 M5931047921_0025 ประกัน ตัวเอง 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0025
-M5931047921_0030 จ่าย เงิน โฉนด 
+M5931047921_0030 จ่าย เงิน ลูก 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0030
 ERROR (online2-wav-nnet2-latgen-faster:AcceptWaveform():online-feature.cc:57) Sampling frequency mismatch, expected 16000, got 44100
 WARNING (online2-wav-nnet2-latgen-faster:Close():kaldi-io.cc:465) Pipe wav-copy scp,p:../../ASR_Project/data/train//split1/1/wav.scp ark:- | had nonzero return status 13
@@ -159,8 +159,8 @@ kaldi::KaldiErrorMessage::~KaldiErrorMessage()
 kaldi::OnlineGenericBaseFeature<kaldi::Mfcc>::AcceptWaveform(float, kaldi::VectorBase<float> const&)
 kaldi::OnlineNnet2FeaturePipeline::AcceptWaveform(float, kaldi::VectorBase<float> const&)
 online2-wav-nnet2-latgen-faster(main+0xab6) [0x470b2e]
-/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f9dc0f81b45]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f7c173b7b45]
 online2-wav-nnet2-latgen-faster() [0x46fa59]
 
 # Accounting: time=53 threads=1
-# Ended (code 255) at Wed May  1 17:07:16 UTC 2019, elapsed time 53 seconds
+# Ended (code 255) at Wed May  1 17:17:26 UTC 2019, elapsed time 53 seconds

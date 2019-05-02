@@ -1,0 +1,124 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz" 
+# Started at Thu May  2 13:55:28 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- 
+M5931009021_0000 โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0000
+M5931009021_0008 เริ่ม โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0008
+M5931009021_0009 ทอย ลูกเต๋า หนึ่ง ลูก โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0009
+M5931009021_0012 เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0012
+M5931009021_0013 สร้าง แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0013
+M5931009021_0014 ซื้อ โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0014
+M5931009021_0015 ซื้อ โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0015
+M5931009021_0016 ซื้อ แหก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0016
+M5931009021_0017 สร้าง โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0017
+M5931009021_0018 ขาย โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0018
+M5931009021_0019 ขาย ประกัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0019
+M5931009021_0020 ขาย ประกัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0020
+M5931009021_0021 ขาย โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0021
+M5931009021_0022 โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0022
+M5931009021_0023 ดู ข้อมูล ยอม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0023
+M5931009021_0024 แหก ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0024
+M5931009021_0025 โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0025
+M5931009021_0030 จ่าย เงิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931009021_0030
+M5931014121_0000 โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0000
+M5931014121_0008 เริ่ม เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0008
+M5931014121_0009 แพ้ ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0009
+M5931014121_0012 เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0012
+M5931014121_0013 ยอม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0013
+M5931014121_0014 ซื้อ โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0014
+M5931014121_0015 ซื้อ ลูก สร้าง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0015
+M5931014121_0016 ซื้อ เริ่ม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0016
+M5931014121_0017 สร้าง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0017
+M5931014121_0018 ขาย โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0018
+M5931014121_0019 ขาย ประกัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0019
+M5931014121_0020 ขาย สร้าง แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0020
+M5931014121_0021 ขาย ลูก สร้าง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0021
+M5931014121_0022 เริ่ม โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0022
+M5931014121_0023 ลูก ข้อมูล เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0023
+M5931014121_0024 ลูกเต๋า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0024
+M5931014121_0025 ประกัน ตัวเอง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0025
+M5931014121_0030 จ่าย เงิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931014121_0030
+M5931030121_0000 โกวาจี ยอม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0000
+M5931030121_0008 ซื้อ ลูก ตัวเอง ดู 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0008
+M5931030121_0009 ทอย ลูกเต๋า ดู ซื้อ ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0009
+M5931030121_0012 เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0012
+M5931030121_0013 ยอม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0013
+M5931030121_0014 ซื้อ โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0014
+M5931030121_0015 ซื้อ ลูก เริ่ม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0015
+M5931030121_0016 ซื้อ ดู แหก ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0016
+M5931030121_0017 ซื้อ ลูก เริ่ม เงิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0017
+M5931030121_0018 ขาย โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0018
+M5931030121_0019 ขาย ลูก สร้าง ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0019
+M5931030121_0020 ขาย ลูกเต๋า เริ่ม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0020
+M5931030121_0021 ขาย ลูกเต๋า หนึ่ง ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0021
+M5931030121_0022 เงิน ดู ซื้อ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0022
+M5931030121_0023 ลูก ข้อมูล ลูก ซื้อ ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0023
+M5931030121_0024 แพ้ ดู 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0024
+LOG (wav-copy:main():wav-copy.cc:56) Copied 54 wave files
+M5931030121_0025 เงิน เงิน ตัวเอง ดู 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0025
+M5931030121_0030 ขาย ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0030
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.08758 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.176469 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 70.8154
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.945022 seconds for utterance 'M5931030121_0021'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 54 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.143829 per frame over 10773 frames.
+# Accounting: time=42 threads=1
+# Ended (code 0) at Thu May  2 13:56:10 UTC 2019, elapsed time 42 seconds
