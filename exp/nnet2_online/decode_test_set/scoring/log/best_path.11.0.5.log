@@ -1,44 +1,44 @@
 # lattice-scale --inv-acoustic-scale=11 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/11.0.5.tra 
-# Started at Thu May  2 14:31:52 UTC 2019
+# Started at Thu May  2 15:49:25 UTC 2019
 #
 lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/11.0.5.tra 
-lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0000, best cost 14.8362 + -82.9633 = -68.1271 over 141 frames.
 M5931047921_0000 โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0008, best cost 21.0203 + -49.704 = -28.6837 over 168 frames.
 M5931047921_0008 เริ่ม ตัวเอง 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 16 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0009, best cost 23.4736 + -105.769 = -82.2959 over 250 frames.
 M5931047921_0009 ทอย ลูกเต๋า หนึ่ง ลูก 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0012, best cost 14.2706 + -47.6818 = -33.4112 over 156 frames.
 M5931047921_0012 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0013, best cost 13.5342 + -58.5697 = -45.0355 over 164 frames.
 M5931047921_0013 ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0014, best cost 17.6965 + -47.6887 = -29.9922 over 173 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0014, best cost 16.0871 + -47.6887 = -31.6016 over 173 frames.
 M5931047921_0014 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0015, best cost 20.3086 + -40.0818 = -19.7732 over 168 frames.
-M5931047921_0015 ซื้อ ประกัน 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0016, best cost 21.6369 + -38.8754 = -17.2385 over 194 frames.
-M5931047921_0016 ซื้อ ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0017, best cost 27.0571 + -42.7768 = -15.7197 over 180 frames.
-M5931047921_0017 สร้าง เงิน แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0018, best cost 17.1471 + -66.4399 = -49.2928 over 197 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0015, best cost 14.1885 + -51.7912 = -37.6027 over 168 frames.
+M5931047921_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0016, best cost 16.6134 + -59.7174 = -43.104 over 194 frames.
+M5931047921_0016 ซื้อ โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0017, best cost 16.6133 + -60.5683 = -43.9549 over 180 frames.
+M5931047921_0017 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0018, best cost 15.1187 + -66.4399 = -51.3211 over 197 frames.
 M5931047921_0018 ขาย โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0019, best cost 19.9336 + -45.9551 = -26.0216 over 188 frames.
-M5931047921_0019 ขาย สร้าง 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0020, best cost 25.8443 + -59.2415 = -33.3972 over 226 frames.
-M5931047921_0020 ขาย ทอย แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0021, best cost 26.2218 + -44.7299 = -18.5081 over 194 frames.
-M5931047921_0021 ขาย เปลี่ยน แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0019, best cost 13.9828 + -64.9321 = -50.9493 over 188 frames.
+M5931047921_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0020, best cost 16.3339 + -82.8684 = -66.5345 over 226 frames.
+M5931047921_0020 ขาย โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0021, best cost 16.1492 + -65.2216 = -49.0724 over 194 frames.
+M5931047921_0021 ขาย แลนด์มาร์ค 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0022, best cost 22.5515 + -67.1601 = -44.6085 over 226 frames.
 M5931047921_0022 ทอย โกวาจี 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0023, best cost 26.3186 + -70.6816 = -44.363 over 237 frames.
-M5931047921_0023 ดู ข้อมูล โกวาจี 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0024, best cost 20.1261 + -38.6315 = -18.5055 over 154 frames.
-M5931047921_0024 แหก ลูก 
-LOG (lattice-scale:main():lattice-scale.cc:90) Done 16 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0023, best cost 21.0595 + -77.9597 = -56.9002 over 237 frames.
+M5931047921_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0024, best cost 15.5727 + -41.8158 = -26.2431 over 154 frames.
+M5931047921_0024 แหก คุก 
 LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 16 lattices.
-LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.190641 = 0.110072 [graph] + -0.300713 [acoustic] over 3016 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.251806 = 0.0899886 [graph] + -0.341794 [acoustic] over 3016 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 16 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Thu May  2 14:31:52 UTC 2019, elapsed time 0 seconds
+# Ended (code 0) at Thu May  2 15:49:25 UTC 2019, elapsed time 0 seconds
