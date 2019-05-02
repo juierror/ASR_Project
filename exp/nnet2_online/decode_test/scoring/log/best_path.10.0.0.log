@@ -1,9 +1,9 @@
 # lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph_new/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/10.0.0.tra 
-# Started at Thu May  2 04:20:34 UTC 2019
+# Started at Thu May  2 04:39:26 UTC 2019
 #
-lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
-lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
 lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph_new/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/10.0.0.tra 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 14.6137 + -87.0185 = -72.4048 over 194 frames.
 t1 โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 29.4919 + -55.0053 = -25.5134 over 230 frames.
@@ -14,7 +14,6 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t4, best co
 t4 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t5, best cost 13.3965 + -55.3443 = -41.9478 over 147 frames.
 t5 ยอม แพ้ 
-LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t6, best cost 23.2817 + -44.9412 = -21.6595 over 179 frames.
 t6 ขาย ประกัน 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t7, best cost 23.2805 + -39.0837 = -15.8032 over 188 frames.
@@ -23,8 +22,9 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best co
 t8 ดู ข้อมูล โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 16.6747 + -45.9686 = -29.2939 over 149 frames.
 t9 จ่าย เงิน 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
 LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.198869 = 0.101508 [graph] + -0.300377 [acoustic] over 1901 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Thu May  2 04:20:34 UTC 2019, elapsed time 0 seconds
+# Ended (code 0) at Thu May  2 04:39:26 UTC 2019, elapsed time 0 seconds

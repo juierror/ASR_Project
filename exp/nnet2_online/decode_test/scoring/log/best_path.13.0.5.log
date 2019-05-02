@@ -1,13 +1,11 @@
 # lattice-scale --inv-acoustic-scale=13 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph_new/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/13.0.5.tra 
-# Started at Thu May  2 04:20:35 UTC 2019
+# Started at Thu May  2 04:39:26 UTC 2019
 #
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 lattice-scale --inv-acoustic-scale=13 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test/lat.*.gz|' ark:- 
 lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph_new/words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test/scoring/13.0.5.tra 
-lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t1, best cost 15.1137 + -66.9373 = -51.8236 over 194 frames.
 t1 โกวาจี 
-LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
-LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t2, best cost 24.4698 + -37.167 = -12.6972 over 230 frames.
 t2 ตัวเอง ลูก 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t3, best cost 28.6734 + -72.0579 = -43.3844 over 330 frames.
@@ -24,7 +22,9 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t8, best co
 t8 ดู ข้อมูล โกวาจี 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance t9, best cost 17.6747 + -35.3605 = -17.6858 over 149 frames.
 t9 จ่าย เงิน 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 9 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.124722 = 0.102609 [graph] + -0.227332 [acoustic] over 1901 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 9 lattices, failed for 0
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu May  2 04:20:35 UTC 2019, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu May  2 04:39:27 UTC 2019, elapsed time 1 seconds
