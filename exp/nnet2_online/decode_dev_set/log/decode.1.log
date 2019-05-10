@@ -1,5 +1,5 @@
 # online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz" 
-# Started at Thu May  2 15:37:47 UTC 2019
+# Started at Fri May 10 16:28:30 UTC 2019
 #
 online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz' 
 LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
@@ -109,16 +109,58 @@ M5931030121_0023 ลูก ข้อมูล ที่ดิน
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0023
 M5931030121_0024 แหก คุก 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0024
-LOG (wav-copy:main():wav-copy.cc:56) Copied 54 wave files
 M5931030121_0025 เงิน เงิน ตัวเอง ดู 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0025
 M5931030121_0030 ขาย ที่ดิน 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931030121_0030
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.05822 (note: this cannot be less than one.)
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.117308 seconds.
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 71.0162
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.47615 seconds for utterance 'M5931030121_0025'
-LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 54 utterances, 0 with errors.
-LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.181831 per frame over 10773 frames.
-# Accounting: time=39 threads=1
-# Ended (code 0) at Thu May  2 15:38:26 UTC 2019, elapsed time 39 seconds
+M5931047921_0000 โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0000
+M5931047921_0008 เริ่ม ตัวเอง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0008
+M5931047921_0009 ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0009
+M5931047921_0012 เปลี่ยน เทิร์น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0012
+M5931047921_0013 ยอม แพ้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0013
+M5931047921_0014 ซื้อ โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0014
+M5931047921_0015 ซื้อ บ้าน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0015
+M5931047921_0016 ซื้อ โรงแรม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0016
+M5931047921_0017 สร้าง แลนด์มาร์ค 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0017
+M5931047921_0018 ขาย โฉนด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0018
+M5931047921_0019 ขาย บ้าน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0019
+M5931047921_0020 ขาย โรงแรม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0020
+M5931047921_0021 ขาย แลนด์มาร์ค 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0021
+M5931047921_0022 ทอย โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0022
+M5931047921_0023 ดู ข้อมูล ที่ดิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0023
+M5931047921_0024 แหก คุก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0024
+M5931047921_0025 ประกัน ตัวเอง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0025
+M5931047921_0030 จ่าย เงิน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance M5931047921_0030
+ERROR (online2-wav-nnet2-latgen-faster:AcceptWaveform():online-feature.cc:57) Sampling frequency mismatch, expected 16000, got 44100
+WARNING (online2-wav-nnet2-latgen-faster:Close():kaldi-io.cc:465) Pipe wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- | had nonzero return status 13
+ERROR (online2-wav-nnet2-latgen-faster:AcceptWaveform():online-feature.cc:57) Sampling frequency mismatch, expected 16000, got 44100
+
+[stack trace: ]
+kaldi::KaldiGetStackTrace()
+kaldi::KaldiErrorMessage::~KaldiErrorMessage()
+kaldi::OnlineGenericBaseFeature<kaldi::Mfcc>::AcceptWaveform(float, kaldi::VectorBase<float> const&)
+kaldi::OnlineNnet2FeaturePipeline::AcceptWaveform(float, kaldi::VectorBase<float> const&)
+online2-wav-nnet2-latgen-faster(main+0xab6) [0x470b2e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7fb3b19a6b45]
+online2-wav-nnet2-latgen-faster() [0x46fa59]
+
+# Accounting: time=53 threads=1
+# Ended (code 255) at Fri May 10 16:29:23 UTC 2019, elapsed time 53 seconds
