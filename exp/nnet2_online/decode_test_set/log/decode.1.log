@@ -1,5 +1,5 @@
 # online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_set/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/test_set//split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.1.gz" 
-# Started at Sat May 11 05:00:07 UTC 2019
+# Started at Sat May 11 05:10:17 UTC 2019
 #
 online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_test_set/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/test_set//split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.1.gz' 
 LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
@@ -106,11 +106,11 @@ zi_08 ขาย โรงแรม
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance zi_08
 zi_09 จ่าย เงิน 
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance zi_09
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.02219 (note: this cannot be less than one.)
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.0509296 seconds.
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 82.1749
-LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.155529 seconds for utterance 'oak_01'
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.02209 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.0507111 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 82.4364
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.1823 seconds for utterance 'oak_01'
 LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 49 utterances, 1 with errors.
-LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.211456 per frame over 11154 frames.
-# Accounting: time=23 threads=1
-# Ended (code 0) at Sat May 11 05:00:30 UTC 2019, elapsed time 23 seconds
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.211292 per frame over 11154 frames.
+# Accounting: time=25 threads=1
+# Ended (code 0) at Sat May 11 05:10:42 UTC 2019, elapsed time 25 seconds

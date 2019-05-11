@@ -1,5 +1,5 @@
 # lattice-scale --inv-acoustic-scale=12 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_test_set/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/12.0.0.tra 
-# Started at Sat May 11 05:00:30 UTC 2019
+# Started at Sat May 11 05:10:42 UTC 2019
 #
 lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_test_set/scoring/12.0.0.tra 
 lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
@@ -14,19 +14,19 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_03, bes
 jui_03 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_04, best cost 13.3876 + -52.7223 = -39.3348 over 197 frames.
 jui_04 ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_05, best cost 16.5508 + -55.9443 = -39.3935 over 209 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_05, best cost 16.625 + -55.9443 = -39.3193 over 209 frames.
 jui_05 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_06, best cost 16.8587 + -46.5142 = -29.6555 over 135 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_06, best cost 16.888 + -46.5142 = -29.6262 over 135 frames.
 jui_06 แพ้ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_07, best cost 17.3234 + -49.7354 = -32.4119 over 221 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_07, best cost 17.4113 + -49.7354 = -32.3241 over 221 frames.
 jui_07 ซื้อ โรงแรม 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_08, best cost 17.2054 + -47.6475 = -30.4421 over 188 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_08, best cost 17.2923 + -47.6475 = -30.3552 over 188 frames.
 jui_08 ขาย โรงแรม 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance jui_09, best cost 12.7059 + -24.0128 = -11.3069 over 147 frames.
 jui_09 จ่าย เงิน 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_00, best cost 23.8264 + -94.0786 = -70.2523 over 324 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_00, best cost 23.8273 + -94.0786 = -70.2513 over 324 frames.
 oak_00 โกวาจี แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_01, best cost 24.2372 + -60.08 = -35.8428 over 228 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_01, best cost 24.2382 + -60.08 = -35.8418 over 228 frames.
 oak_01 เริ่ม เปลี่ยน 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_02, best cost 24.8124 + -90.6125 = -65.8001 over 305 frames.
 oak_02 ทอย ลูกเต๋า หนึ่ง ลูก 
@@ -34,13 +34,13 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_03, bes
 oak_03 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_04, best cost 19.2883 + -60.8243 = -41.536 over 257 frames.
 oak_04 ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_05, best cost 17.5945 + -52.0661 = -34.4715 over 219 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_05, best cost 17.6687 + -52.0661 = -34.3973 over 219 frames.
 oak_05 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_06, best cost 17.9504 + -57.3872 = -39.4368 over 209 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_06, best cost 18.0314 + -57.3872 = -39.3557 over 209 frames.
 oak_06 ขาย โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_07, best cost 18.753 + -71.9505 = -53.1975 over 247 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_07, best cost 18.8399 + -71.9505 = -53.1106 over 247 frames.
 oak_07 ซื้อ โรงแรม 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_08, best cost 16.4968 + -56.4528 = -39.9559 over 199 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_08, best cost 16.5837 + -56.4528 = -39.869 over 199 frames.
 oak_08 ขาย โรงแรม 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance oak_09, best cost 15.4353 + -34.226 = -18.7906 over 161 frames.
 oak_09 จ่าย เงิน 
@@ -50,15 +50,15 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_01, be
 palm_01 ประกัน ตัวเอง 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_02, best cost 20.7481 + -92.7613 = -72.0132 over 340 frames.
 palm_02 ทอย ลูกเต๋า หนึ่ง ลูก 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_03, best cost 20.2225 + -52.0739 = -31.8513 over 263 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_03, best cost 20.2548 + -52.0739 = -31.8191 over 263 frames.
 palm_03 เปลี่ยน โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_05, best cost 14.8045 + -59.3735 = -44.5691 over 273 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_05, best cost 14.8787 + -59.3735 = -44.4948 over 273 frames.
 palm_05 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_06, best cost 14.1914 + -62.3991 = -48.2077 over 234 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_06, best cost 14.2724 + -62.3991 = -48.1267 over 234 frames.
 palm_06 ขาย โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_07, best cost 15.3438 + -56.041 = -40.6972 over 273 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_07, best cost 15.4307 + -56.041 = -40.6102 over 273 frames.
 palm_07 ซื้อ โรงแรม 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_08, best cost 15.4604 + -72.0791 = -56.6187 over 292 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_08, best cost 15.5473 + -72.0791 = -56.5318 over 292 frames.
 palm_08 ขาย โรงแรม 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance palm_09, best cost 21.6524 + -62.11 = -40.4576 over 273 frames.
 palm_09 จ่าย หนึ่ง 
@@ -66,7 +66,7 @@ LOG (lattice-scale:main():lattice-scale.cc:90) Done 49 lattices.
 LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 49 lattices.
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_00, best cost 23.6128 + -57.0958 = -33.483 over 219 frames.
 tanat_00 โกวาจี โกวาจี 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_01, best cost 21.9207 + -45.7805 = -23.8598 over 165 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_01, best cost 21.9217 + -45.7805 = -23.8588 over 165 frames.
 tanat_01 เริ่ม ตัวเอง 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_02, best cost 27.2029 + -88.0438 = -60.8409 over 458 frames.
 tanat_02 ทอย ลูกเต๋า หนึ่ง ลูก 
@@ -74,19 +74,19 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_03, b
 tanat_03 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_04, best cost 15.8294 + -66.707 = -50.8776 over 230 frames.
 tanat_04 ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_05, best cost 17.9319 + -53.2244 = -35.2925 over 251 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_05, best cost 18.0071 + -53.2244 = -35.2173 over 251 frames.
 tanat_05 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_06, best cost 16.766 + -35.106 = -18.34 over 201 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_06, best cost 16.8461 + -35.106 = -18.2599 over 201 frames.
 tanat_06 ขาย โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_07, best cost 15.2446 + -57.3523 = -42.1077 over 229 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_07, best cost 15.3324 + -57.3523 = -42.0198 over 229 frames.
 tanat_07 ซื้อ โรงแรม 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_08, best cost 17.8541 + -61.0209 = -43.1669 over 260 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_08, best cost 17.941 + -61.0209 = -43.08 over 260 frames.
 tanat_08 ขาย โรงแรม 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance tanat_09, best cost 23.0686 + -47.9466 = -24.878 over 237 frames.
 tanat_09 จ่าย หนึ่ง 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_00, best cost 17.3851 + -66.7686 = -49.3834 over 197 frames.
 zi_00 โกวาจี 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_01, best cost 18.9353 + -45.8238 = -26.8886 over 193 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_01, best cost 18.9665 + -45.8238 = -26.8573 over 193 frames.
 zi_01 เริ่ม โฉนด 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_02, best cost 22.2611 + -56.8645 = -34.6033 over 269 frames.
 zi_02 ทอย ลูกเต๋า หนึ่ง ลูก 
@@ -94,17 +94,17 @@ LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_03, best
 zi_03 เปลี่ยน เทิร์น 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_04, best cost 12.6927 + -35.3116 = -22.6189 over 180 frames.
 zi_04 ยอม แพ้ 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_05, best cost 13.8155 + -46.9848 = -33.1692 over 200 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_05, best cost 13.8898 + -46.9848 = -33.095 over 200 frames.
 zi_05 ซื้อ โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_06, best cost 13.5485 + -39.1183 = -25.5698 over 147 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_06, best cost 13.6295 + -39.1183 = -25.4887 over 147 frames.
 zi_06 ขาย โฉนด 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_07, best cost 14.1229 + -39.7589 = -25.636 over 178 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_07, best cost 14.2099 + -39.7589 = -25.549 over 178 frames.
 zi_07 ซื้อ โรงแรม 
-LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_08, best cost 13.3414 + -35.6973 = -22.3559 over 183 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_08, best cost 13.4283 + -35.6973 = -22.269 over 183 frames.
 zi_08 ขาย โรงแรม 
 LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance zi_09, best cost 11.9449 + -30.9744 = -19.0295 over 184 frames.
 zi_09 จ่าย เงิน 
-LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.163235 = 0.0764199 [graph] + -0.239655 [acoustic] over 11154 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.163086 = 0.0765689 [graph] + -0.239655 [acoustic] over 11154 frames.
 LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 49 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat May 11 05:00:30 UTC 2019, elapsed time 0 seconds
+# Ended (code 0) at Sat May 11 05:10:42 UTC 2019, elapsed time 0 seconds
