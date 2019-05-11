@@ -16,4 +16,6 @@ WER is kept in the file below
 
 You can also see script that I use to make HCLG graph with class ngram LM at jui_class_fixed.sh
 
+AM is provided by the class
+
 Almost script come from https://github.com/kaldi-asr/kaldi
