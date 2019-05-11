@@ -1,4 +1,0 @@
-compute-wer --text --mode=present ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/scoring/test_filt.txt ark,p:- 
-%WER 29.82 [ 34 / 114, 10 ins, 3 del, 21 sub ]
-%SER 35.19 [ 19 / 54 ]
-Scored 54 sentences, 0 not present in hyp.
