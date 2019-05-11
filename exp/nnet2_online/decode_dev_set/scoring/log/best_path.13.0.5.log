@@ -1,0 +1,192 @@
+# lattice-scale --inv-acoustic-scale=13 "ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_dev_set/scoring/13.0.5.tra 
+# Started at Sat May 11 05:01:31 UTC 2019
+#
+lattice-best-path --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ark:- ark,t:../../ASR_Project/exp/nnet2_online/decode_dev_set/scoring/13.0.5.tra 
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=13 'ark:gunzip -c ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.*.gz|' ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0000, best cost 14.9224 + -45.2132 = -30.2909 over 179 frames.
+M5931009021_0000 โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0008, best cost 19.8886 + -45.1288 = -25.2403 over 188 frames.
+M5931009021_0008 เริ่ม โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0009, best cost 27.3232 + -50.2638 = -22.9405 over 224 frames.
+M5931009021_0009 ทอย ลูกเต๋า หนึ่ง ลูก โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0012, best cost 14.5921 + -32.9729 = -18.3808 over 188 frames.
+M5931009021_0012 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0013, best cost 19.8557 + -34.3346 = -14.4789 over 166 frames.
+M5931009021_0013 สร้าง แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0014, best cost 13.8105 + -34.3416 = -20.5311 over 135 frames.
+M5931009021_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0015, best cost 13.2097 + -32.1558 = -18.9461 over 162 frames.
+M5931009021_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0016, best cost 13.8903 + -28.2373 = -14.347 over 149 frames.
+M5931009021_0016 ซื้อ โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0017, best cost 15.294 + -28.5819 = -13.2879 over 147 frames.
+M5931009021_0017 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0018, best cost 14.4174 + -39.2657 = -24.8482 over 162 frames.
+M5931009021_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0019, best cost 13.5402 + -36.1445 = -22.6042 over 147 frames.
+M5931009021_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0020, best cost 14.3719 + -33.5742 = -19.2024 over 184 frames.
+M5931009021_0020 ขาย โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0021, best cost 15.0503 + -37.5811 = -22.5308 over 188 frames.
+M5931009021_0021 ขาย แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0022, best cost 13.7541 + -33.8219 = -20.0677 over 185 frames.
+M5931009021_0022 โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0023, best cost 20.4167 + -58.4923 = -38.0756 over 231 frames.
+M5931009021_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0024, best cost 15.632 + -41.1992 = -25.5672 over 171 frames.
+M5931009021_0024 แหก คุก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0025, best cost 14.3764 + -27.4419 = -13.0654 over 188 frames.
+M5931009021_0025 โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931009021_0030, best cost 13.9691 + -30.613 = -16.6439 over 147 frames.
+M5931009021_0030 จ่าย เงิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0000, best cost 15.5973 + -60.1772 = -44.5799 over 254 frames.
+M5931014121_0000 โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0008, best cost 14.6536 + -29.8562 = -15.2026 over 193 frames.
+M5931014121_0008 โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0009, best cost 34.0771 + -67.1359 = -33.0588 over 305 frames.
+M5931014121_0009 คุก ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0012, best cost 18.8128 + -24.8703 = -6.05749 over 200 frames.
+M5931014121_0012 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0013, best cost 17.4133 + -34.325 = -16.9117 over 180 frames.
+M5931014121_0013 ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0014, best cost 18.5077 + -32.8498 = -14.342 over 171 frames.
+M5931014121_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0015, best cost 17.7366 + -27.862 = -10.1255 over 152 frames.
+M5931014121_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0016, best cost 18.7299 + -52.3187 = -33.5888 over 228 frames.
+M5931014121_0016 ซื้อ โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0017, best cost 21.6359 + -37.5452 = -15.9094 over 209 frames.
+M5931014121_0017 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0018, best cost 17.3094 + -41.5055 = -24.1961 over 180 frames.
+M5931014121_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0019, best cost 16.663 + -29.2087 = -12.5456 over 200 frames.
+M5931014121_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0020, best cost 19.0293 + -63.7965 = -44.7672 over 305 frames.
+M5931014121_0020 ขาย โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0021, best cost 20.0073 + -47.7636 = -27.7563 over 248 frames.
+M5931014121_0021 ขาย แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0022, best cost 23.265 + -52.1427 = -28.8777 over 228 frames.
+M5931014121_0022 เริ่ม โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0023, best cost 24.134 + -48.8845 = -24.7506 over 248 frames.
+M5931014121_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0024, best cost 17.2603 + -37.7426 = -20.4823 over 190 frames.
+M5931014121_0024 ซื้อ คุก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0025, best cost 16.5323 + -36.8552 = -20.3229 over 219 frames.
+M5931014121_0025 ประกัน ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931014121_0030, best cost 19.6808 + -33.3392 = -13.6584 over 180 frames.
+M5931014121_0030 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0000, best cost 20.2987 + -40.0011 = -19.7023 over 143 frames.
+M5931030121_0000 โกวาจี ยอม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0008, best cost 25.0327 + -31.9068 = -6.87406 over 159 frames.
+M5931030121_0008 ซื้อ ลูก ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0009, best cost 37.1073 + -81.3468 = -44.2396 over 376 frames.
+M5931030121_0009 ทอย ลูกเต๋า ซื้อ ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0012, best cost 13.4754 + -18.8458 = -5.37041 over 154 frames.
+M5931030121_0012 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0013, best cost 14.8406 + -35.5474 = -20.7069 over 164 frames.
+M5931030121_0013 ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0014, best cost 16.9198 + -55.7231 = -38.8033 over 181 frames.
+M5931030121_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0015, best cost 14.6948 + -52.6994 = -38.0046 over 209 frames.
+M5931030121_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0016, best cost 40.4473 + -73.0428 = -32.5955 over 224 frames.
+M5931030121_0016 ซื้อ คุก ลูก แหก ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0017, best cost 17.4395 + -43.8636 = -26.4241 over 228 frames.
+M5931030121_0017 ซื้อ แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0018, best cost 16.4522 + -43.8905 = -27.4383 over 194 frames.
+M5931030121_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0019, best cost 14.4751 + -25.6093 = -11.1342 over 198 frames.
+M5931030121_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0020, best cost 35.5659 + -55.0404 = -19.4746 over 255 frames.
+M5931030121_0020 ขาย ลูกเต๋า เริ่ม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0021, best cost 17.3355 + -43.8262 = -26.4908 over 227 frames.
+M5931030121_0021 ขาย แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0022, best cost 29.8771 + -48.5534 = -18.6763 over 207 frames.
+M5931030121_0022 เงิน ดู ซื้อ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0023, best cost 27.4707 + -78.4977 = -51.0271 over 303 frames.
+M5931030121_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0024, best cost 16.9231 + -32.5217 = -15.5986 over 140 frames.
+M5931030121_0024 แหก คุก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0025, best cost 34.4567 + -43.2413 = -8.78461 over 221 frames.
+M5931030121_0025 เงิน เงิน ตัวเอง ดู 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931030121_0030, best cost 16.0606 + -26.0305 = -9.96992 over 159 frames.
+M5931030121_0030 ขาย ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0000, best cost 14.8338 + -70.2988 = -55.465 over 141 frames.
+M5931047921_0000 โกวาจี 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 90 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0008, best cost 21.0524 + -41.8559 = -20.8036 over 168 frames.
+M5931047921_0008 เริ่ม ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0009, best cost 23.4775 + -89.88 = -66.4025 over 250 frames.
+M5931047921_0009 ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0012, best cost 14.2706 + -40.1404 = -25.8699 over 156 frames.
+M5931047921_0012 เปลี่ยน เทิร์น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0013, best cost 13.5342 + -50.0032 = -36.469 over 164 frames.
+M5931047921_0013 ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0014, best cost 16.0336 + -40.6157 = -24.5821 over 173 frames.
+M5931047921_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0015, best cost 14.1296 + -43.8689 = -29.7393 over 168 frames.
+M5931047921_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0016, best cost 16.6119 + -50.7779 = -34.1659 over 194 frames.
+M5931047921_0016 ซื้อ โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0017, best cost 16.5281 + -51.2904 = -34.7623 over 180 frames.
+M5931047921_0017 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0018, best cost 15.0886 + -55.6301 = -40.5415 over 197 frames.
+M5931047921_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0019, best cost 13.9678 + -53.5369 = -39.5692 over 188 frames.
+M5931047921_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0020, best cost 16.247 + -69.7648 = -53.5178 over 226 frames.
+M5931047921_0020 ขาย โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0021, best cost 16.0745 + -55.6656 = -39.5911 over 194 frames.
+M5931047921_0021 ขาย แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0022, best cost 22.5436 + -56.5745 = -34.0309 over 226 frames.
+M5931047921_0022 ทอย โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0023, best cost 21.2825 + -66.3495 = -45.067 over 237 frames.
+M5931047921_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0024, best cost 15.7359 + -35.4594 = -19.7236 over 154 frames.
+M5931047921_0024 แหก คุก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0025, best cost 16.5899 + -37.301 = -20.7111 over 219 frames.
+M5931047921_0025 ประกัน ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931047921_0030, best cost 16.0606 + -25.6273 = -9.56676 over 159 frames.
+M5931047921_0030 ขาย ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0000, best cost 15.5654 + -69.1918 = -53.6264 over 185 frames.
+M5931065121_0000 โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0008, best cost 17.0669 + -41.3753 = -24.3084 over 188 frames.
+M5931065121_0008 ประกัน ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0009, best cost 25.4304 + -56.7614 = -31.331 over 311 frames.
+M5931065121_0009 ทอย ลูกเต๋า หนึ่ง ลูก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0012, best cost 16.7942 + -33.4767 = -16.6825 over 191 frames.
+M5931065121_0012 เปลี่ยน เทิร์น 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 90 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0013, best cost 14.9806 + -39.2729 = -24.2924 over 219 frames.
+M5931065121_0013 ยอม แพ้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0014, best cost 17.0974 + -50.7474 = -33.65 over 237 frames.
+M5931065121_0014 ซื้อ โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0015, best cost 14.1544 + -29.2355 = -15.0811 over 147 frames.
+M5931065121_0015 ซื้อ บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0016, best cost 16.1805 + -49.8648 = -33.6842 over 194 frames.
+M5931065121_0016 ซื้อ โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0017, best cost 17.5597 + -64.5069 = -46.9472 over 249 frames.
+M5931065121_0017 สร้าง แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0018, best cost 16.0389 + -50.1833 = -34.1443 over 218 frames.
+M5931065121_0018 ขาย โฉนด 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0019, best cost 15.5385 + -51.8728 = -36.3342 over 209 frames.
+M5931065121_0019 ขาย บ้าน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0020, best cost 18.1177 + -48.6591 = -30.5413 over 236 frames.
+M5931065121_0020 ขาย โรงแรม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0021, best cost 16.3689 + -52.0233 = -35.6544 over 188 frames.
+M5931065121_0021 ขาย แลนด์มาร์ค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0022, best cost 23.1308 + -58.1805 = -35.0497 over 236 frames.
+M5931065121_0022 แพ้ โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0023, best cost 24.2806 + -81.7655 = -57.4849 over 272 frames.
+M5931065121_0023 ดู ข้อมูล ที่ดิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0024, best cost 17.0801 + -39.7088 = -22.6287 over 188 frames.
+M5931065121_0024 แหก คุก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0025, best cost 16.8001 + -28.8194 = -12.0192 over 197 frames.
+M5931065121_0025 ประกัน ตัวเอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance M5931065121_0030, best cost 15.1034 + -31.99 = -16.8866 over 194 frames.
+M5931065121_0030 จ่าย เงิน 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.133164 = 0.0926208 [graph] + -0.225785 [acoustic] over 18026 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 90 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat May 11 05:01:31 UTC 2019, elapsed time 0 seconds

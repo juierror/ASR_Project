@@ -1,6 +1,6 @@
 rm -rf data/local/dict_nnet
 rm -rf data/lang_nnet
-./LM/build_class_ngram ./LM/asr.manual.classes ./LM/transcript_mac.txt 3 ./LM/asr.vocab ./LM/lm.lm
+./LM/build_class_ngram ./LM/asr.manual.classes ./LM/transcript_mac_2.txt 3 ./LM/asr.vocab ./LM/lm.lm
 ngram -lm LM/lm.lm -write-lm lm.arpa
 gzip lm.arpa
 ngram -lm LM/lm.lm -write-lm lm.arpa
