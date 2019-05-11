@@ -1,5 +1,5 @@
 # online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |" "ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz" 
-# Started at Fri May 10 16:41:37 UTC 2019
+# Started at Sat May 11 04:35:53 UTC 2019
 #
 online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=../../ASR_Project/exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=../../ASR_Project/exp/nnet2_online/graph//words.txt ../../ASR_Project/exp/nnet2_online/final.mdl ../../ASR_Project/exp/nnet2_online/graph//HCLG.fst ark:../../ASR_Project/exp/nnet2_online/decode_dev_set/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:../../ASR_Project/data/dev_set//split1/1/wav.scp ark:- |' 'ark:|gzip -c > ../../ASR_Project/exp/nnet2_online/decode_dev_set/lat.1.gz' 
 LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
@@ -159,8 +159,8 @@ kaldi::KaldiErrorMessage::~KaldiErrorMessage()
 kaldi::OnlineGenericBaseFeature<kaldi::Mfcc>::AcceptWaveform(float, kaldi::VectorBase<float> const&)
 kaldi::OnlineNnet2FeaturePipeline::AcceptWaveform(float, kaldi::VectorBase<float> const&)
 online2-wav-nnet2-latgen-faster(main+0xab6) [0x470b2e]
-/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ff4e5855b45]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7f633d382b45]
 online2-wav-nnet2-latgen-faster() [0x46fa59]
 
-# Accounting: time=51 threads=1
-# Ended (code 255) at Fri May 10 16:42:28 UTC 2019, elapsed time 51 seconds
+# Accounting: time=33 threads=1
+# Ended (code 255) at Sat May 11 04:36:26 UTC 2019, elapsed time 33 seconds
