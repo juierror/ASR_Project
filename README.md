@@ -18,4 +18,4 @@ You can also see script that I use to make HCLG graph with class ngram LM at jui
 
 AM is provided by the class
 
-Almost script come from https://github.com/kaldi-asr/kaldi
+Most of the scripts come from https://github.com/kaldi-asr/kaldi
